@@ -2,6 +2,33 @@
 This oxyge cursors
 # Hello 2022!
 
+#### Arch /Manjaro ... install
+```
+yay -Syy oxygen-cursors
+or
+pacman -U https://github.com/wo2ni/Oxygen-Cursors/releases/download/v1.0.0/oxygen-cursors.tar.bz2
+or
+copy PKGBUILD not cloe Repositories
+makepkg -csi
+```
+
+#### Debian /Ubuntu ... install
+```
+apt-get update &&apt-get install git
+git clone https://github.com/wo2ni/Oxygen-Cursors.git
+mkdir "${USER}"/.icons
+cp -avr Oxygen* "${USER}"/.icons
+gtk-update-icon-cache
+```
+
+#### RedHat /Fedora ... install
+```
+dnf makecache &&dnf install git
+git clone https://github.com/wo2ni/Oxygen-Cursors.git
+mkdir "${USER}"/.icons
+cp -avr Oxygen* "${USER}"/.icons
+gtk-update-icon-cache
+```
 
 ![Oxygen-01-Yellow.png](https://i.postimg.cc/1XS0BVWp/1.png)
 
@@ -76,3 +103,6 @@ This oxyge cursors
 ![Oxygen-36-Royal-Blue](https://i.postimg.cc/Nf1kzcZg/36.png)
 
 ![Oxygen-37-Royal-Yellow](https://i.postimg.cc/0QMpdRp1/37.png)
+
+# Enjoy Arch Linux
+- [→ 本人永久的Github地址](https://github.com/wo2ni)
