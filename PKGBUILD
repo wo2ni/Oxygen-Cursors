@@ -1,20 +1,20 @@
 # Maintainer: BadBoy <luckmelove2@gmail.com>
 
 pkgname='oxygen-cursors'
-pkgver='1.0.0'
+pkgver='v1.0.0'
 pkgrel='1'
-pkgdesc='Made by LHt Cursors themes'
+pkgdesc='Beautiful Cursors themes'
 arch=('any')
+url='https://github.com/wo2ni/Oxygen-Cursors'
 license=('GPL3')
 depends=('lxappearance' 'libx11' 'libxcursor' 'libpng')
-source=('oxygen-cursors.tar.bz2'
+source=("https://github.com/wo2ni/Oxygen-Cursors/releases/download/${pkgver}/${pkgname}.tar.bz2"
 )
 
-sha256sums=('SKIP'
-)
+sha256sums=('b87ee63366bfe45e462d0e090971d2977a7bf4e0ed3ffeba3c8fbeb910fb9c81')
 
 package() {
-    msg 'This Private cursors themes'
+    msg 'This free Beautiful cursors themes'
     for i in "${pkgname}"/*
     do
         page=$(echo ${i}|cut -d '/' -f '2')
