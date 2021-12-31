@@ -5,6 +5,9 @@ This oxyge cursors
 #### Arch /Manjaro ... install
 ```
 yay -Syy oxygen-cursors
+or
+wget 'https://github.com/wo2ni/Oxygen-Cursors/releases/download/v1.0.0/oxygen-cursors-1.0.0-1-any.pkg.tar.zst'
+sudo pacman -U oxygen-cursors-*
 ```
 
 #### Debian /Ubuntu ... install
