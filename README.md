@@ -32,7 +32,7 @@ gtk-update-icon-cache
 
 ![Oxygen-02-Vibrant-Orange](https://i.postimg.cc/gcvrbTJc/2.png)
 
-![Oxygen-03-Orange-Carnelian](https://postimg.cc/VrSD8323)
+![Oxygen-03-Orange-Carnelian](https://i.postimg.cc/FRpqjvps/3.png)
 
 ![Oxygen-04-Red-Ruby](https://i.postimg.cc/fbRZp8PL/4.png)
 
