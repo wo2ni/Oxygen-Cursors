@@ -5,19 +5,14 @@ This oxyge cursors
 #### Arch /Manjaro ... install
 ```
 yay -Syy oxygen-cursors
-or
-pacman -U https://github.com/wo2ni/Oxygen-Cursors/releases/download/v1.0.0/oxygen-cursors.tar.bz2
-or
-copy PKGBUILD not cloe Repositories
-makepkg -csi
 ```
 
 #### Debian /Ubuntu ... install
 ```
 apt-get update &&apt-get install git
 git clone https://github.com/wo2ni/Oxygen-Cursors.git
-mkdir "${USER}"/.icons
-cp -avr Oxygen* "${USER}"/.icons
+mkdir "${USER}"/.icons                  #Don't use root
+cp -avr Oxygen* "${USER}"/.icons        #Don't use root
 gtk-update-icon-cache
 ```
 
@@ -25,8 +20,8 @@ gtk-update-icon-cache
 ```
 dnf makecache &&dnf install git
 git clone https://github.com/wo2ni/Oxygen-Cursors.git
-mkdir "${USER}"/.icons
-cp -avr Oxygen* "${USER}"/.icons
+mkdir "${USER}"/.icons                  #Don't use root
+cp -avr Oxygen* "${USER}"/.icons        #Don't use root
 gtk-update-icon-cache
 ```
 
